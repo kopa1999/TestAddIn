@@ -90,7 +90,7 @@
           <bt:Image id="Icon.80x80" DefaultValue="Images/icon-80.png"/>	<!--Change-->
       	</bt:Images>
 	<bt:Urls>
-          <bt:Url id="functionFile" DefaultValue="Functions/FunctionFile.html"/>	<!--Change ??????-->
+          <bt:Url id="functionFile" DefaultValue="Functions/FunctionFile.html"/>	<!--Change-->
           <bt:Url id="messageReadTaskPaneUrl" DefaultValue="SendEML.html"/>	<!--Change-->
       	</bt:Urls>
 	<bt:ShortStrings>
