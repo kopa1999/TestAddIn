@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <OfficeApp 
 	xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
@@ -15,4 +15,25 @@
   
   <DisplayName DefaultValue="Test Add-in"/>
   <Description DefaultValue="Test Add-in"/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+  <IconUrl DefaultValue="Images/icon-32.png"/>
+	
+  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
+  <Requirements>
+    <Sets>
+      <Set Name="Mailbox" MinVersion="1.1"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="		"/>
+        <RequestedHeight>450</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>	
+	
+  </OfficeApp>
