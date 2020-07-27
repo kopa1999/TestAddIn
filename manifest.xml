@@ -15,7 +15,7 @@
   
   <DisplayName DefaultValue="Test Add-in"/>
   <Description DefaultValue="Test Add-in"/>
-  <IconUrl DefaultValue="Images/icon-32.png"/>	<!--Change-->
+  <IconUrl DefaultValue="https://kopa1999.github.io/TestAddIn/Images/icon-32.png"/>	
 	
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   
@@ -30,7 +30,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="SendEML.html"/>	<!--Change-->
+        <SourceLocation DefaultValue="https://kopa1999.github.io/TestAddIn/SendEML.html"/>	
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -85,13 +85,13 @@
     </Hosts>
     <Resources>
 	<bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="Images/icon-16.png"/>	<!--Change-->
-          <bt:Image id="Icon.32x32" DefaultValue="Images/icon-32.png"/>	<!--Change-->
-          <bt:Image id="Icon.80x80" DefaultValue="Images/icon-80.png"/>	<!--Change-->
+          <bt:Image id="Icon.16x16" DefaultValue="https://kopa1999.github.io/TestAddIn/Images/icon-16.png"/>	
+          <bt:Image id="Icon.32x32" DefaultValue="https://kopa1999.github.io/TestAddIn/Images/icon-32.png"/>	
+          <bt:Image id="Icon.80x80" DefaultValue="https://kopa1999.github.io/TestAddIn/Images/icon-80.png"/>	
       	</bt:Images>
 	<bt:Urls>
-          <bt:Url id="functionFile" DefaultValue="Functions/FunctionFile.html"/>	<!--Change-->
-          <bt:Url id="messageReadTaskPaneUrl" DefaultValue="SendEML.html"/>	<!--Change-->
+          <bt:Url id="functionFile" DefaultValue="https://kopa1999.github.io/TestAddIn/Functions/FunctionFile.html"/>	
+          <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://kopa1999.github.io/TestAddIn/SendEML.html"/>	
       	</bt:Urls>
 	<bt:ShortStrings>
           <bt:String id="groupLabel" DefaultValue=" "/>
