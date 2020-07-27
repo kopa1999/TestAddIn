@@ -102,6 +102,7 @@
       	<bt:LongStrings>
           <bt:String id="paneReadSuperTipDescription" DefaultValue="Opens a pane "/>
       	</bt:LongStrings>
-    </Resources>	    
+    </Resources>
+	</VersionOverrides>
 	
   </OfficeApp>
